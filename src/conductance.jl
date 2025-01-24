@@ -135,5 +135,6 @@ end
 # to base package?
 function to_matrix(S)
     l = [collect(s) for s in S]
-    return hcat(l...)
+    # return hcat(l...)' # transpose does not work
+    return permutedims(hcat(l...))
 end
