@@ -1,0 +1,16 @@
+name = "GCATConductance"
+uuid = "ac29e6a8-09a6-44c6-90e5-cfe97d9aefa1"
+authors = ["Markus Gumbel <m.gumbel@hs-mannheim.de>"]
+version = "0.1.0"
+
+[deps]
+BioSequences = "7e6ae17a-c86d-528c-b3b9-7f778a29fe59"
+BioSymbols = "3c28c6f8-a34d-59c4-9654-267d177fcfa9"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
+
+[compat]
+BioSequences = "3.4.1"
+BioSymbols = "5.1.3"
+LinearAlgebra = "1.11.0"
+NamedArrays = "0.10.3"
