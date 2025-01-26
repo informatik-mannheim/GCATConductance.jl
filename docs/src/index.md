@@ -71,8 +71,7 @@ The (set) robustness is ratio of the number of internal edges to all edges of ``
 ## Conductance for a partition (`part_conductance`)
 
 ```@example rt
-p = [1, 1, 2, 2] # a partition for the tuples below
-#p = [1, 1, 1, 2] # a partition for the tuples below
+p = [1, 1, 1, 2] # a partition for the tuples below
 pc = part_conductance([dna"AA", dna"AT", dna"TA", dna"TT"], p, W, 2)
 ```
 
